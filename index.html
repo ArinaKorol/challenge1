@@ -3,9 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/index.css" rel="stylesheet" type="text/css" />
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="wrap">
+        <div class="header-profile">
+          <img src="images/icon-account.svg" alt="account" class="account-img">
+          <div class="header-profile-text">
+            <div>
+                <p class="name">Королёва Арина</p>
+                <p>ПАЗЛ/КОД</p>
+            </div>
+            <p>Кф6</p>
+          </div>
+        </div>
+
+        <div>
+          <a href="#">
+            <button class="exit" type="button">Выйти</button>
+          </a>
+        </div>
+    </header>
+
+    <main class="main-content wrap">
+        <div>
+            <div class="profile">
+                <img src="images/profileimage.jpg" alt="profileimage" class="profile-image">
+                <div class="profile-text">
+                    <p>Ваше ФИО: <i>Королёва Арина Сергеевна</i></p>
+                    <p>Ваш возраст: <i>16 лет</i></p>
+                    <p>Направление обучения: <i>Фронтенд-разработка</i></p>
+                    <p>Курс: <i>1 (2024 - 2025)</i></p>
+                </div>
+            </div>
+
+            <div class="scores-and-achievement">
+                <div class="scores">
+                    <h2 class="scores-title">Баллы за последние месяцы</h2>
+                    <div class="monthly-scores">
+                        <p>март</p>
+                        <img src="images/scoremarch.svg" alt="score-march" class="score-img">
+                    </div>
+                    <div class="monthly-scores">
+                        <p>фев</p>
+                        <img src="images/scorefebruary.svg" alt="score-february" class="score-img">
+                    </div>
+                    <div class="monthly-scores">
+                        <p>янв</p>
+                        <img src="images/scorejanuary.svg" alt="score-january" class="score-img">
+                    </div>
+                    <div class="monthly-scores">
+                        <p>дек</p>
+                        <img src="images/scoredecember.svg" alt="score-december" class="score-img">
+                    </div>
+                    <div class="scores-details">
+                        <div class="scores-detail-block">
+                            <img src="images/bluerectangle.svg" alt="blue" class="rectangle">
+                            <p>образовательные баллы</p>
+                        </div>
+                        <div class="scores-detail-block">
+                            <img src="images/orangerectangle.svg" alt="orange" class="rectangle">
+                            <p>дополнительные баллы</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-block">
+                    <h3>Полученные ачивки</h3>
+                    <div class="achievements">
+                        <div class="achievement">
+                            <img src="images/achievement1.jpg" alt="achievement1" class="achievement-img">
+                            <h4>Вовлечённый староста</h4>
+                            <p>Поощрение самых ответственных и заботливых старост</p>
+                        </div>
+                        <div class="achievement">
+                            <img src="images/achievement2.jpg" alt="achievement2" class="achievement-img">
+                            <h4>Мастер дедлайнов</h4>
+                            <p>Сдача всех заданий за месяц вовремя</p>
+                        </div>
+                        <div class="achievement">
+                            <img src="images/achievement3.jpg" alt="achievement3" class="achievement-img">
+                            <h4>Сверхактивный</h4>
+                            <p>Активное участие на всех занятиях в течение месяца и отсутствие пропусков</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="skills">
+            <button class="skills-button">Навыки<img src="images/tickdown.svg" alt="tick"></button>
+            <ol class="skills-list">
+                 <li><p><i>HTML и CSS:</i></p>
+                    <p>Основы разметки и стилизации веб-страниц.</p></li>
+                <li><p><i>JavaScript:</i></p>
+                    <p>Базовое и продвинутое программирование на языке JS, включая понимание синтаксиса, работы событий и функций.</p></li>
+                    <li><p><i>Адаптивный и отзывчивый дизайн:</i></p>
+                    <p>Навыки создания веб-страниц, которые корректно отображаются на устройствах с разными размерами экрана.</p></li>
+                <li><p><i>Контроль версий и работа с Git:</i></p>
+                    <p>Умение использовать системы контроля версий, такие как Git, для отслеживания изменений в коде.</p></li>
+                <li><p><i>Дебаггинг и тестирование:</i></p>
+                <p>Навыки поиска и исправления ошибок в коде.</p></li>
+            </ol>
+        </div>
+    </main>
 </body>
 </html>
